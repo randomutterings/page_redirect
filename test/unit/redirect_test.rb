@@ -1,10 +1,10 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
 class RedirectTest < Test::Unit::TestCase
-  fixtures :redirects
-
-  # Replace this with your real tests.
-  def test_truth
-    assert true
+  
+  def test_redirected
+    #redirect = Redirect.process("http://www.randomutterings.com", "302")
+    #assert_redirected_to("http://www.randomutterings.com", "302")
   end
+  
 end

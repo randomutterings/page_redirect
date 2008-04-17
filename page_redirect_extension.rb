@@ -11,11 +11,10 @@ class PageRedirectExtension < Radiant::Extension
   # end
   
   def activate
-    # admin.tabs.add "Page Redirect", "/admin/page_redirect", :after => "Layouts", :visibility => [:all]
+    Redirect
   end
   
   def deactivate
-    # admin.tabs.remove "Page Redirect"
   end
   
 end
