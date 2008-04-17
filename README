@@ -6,4 +6,4 @@ Install with git
 
 git clone git://github.com/randomutterings/page_redirect.git vendor/extensions/page_redirect
 
-Create a page that you want to redirect and choose the redirect page type.  Put the url to redirect to in the body and add a page part called http_status and put the http status code you want to use, example "301 Moved Permanently" or "302 Found".
+Create a page that you want to redirect and choose the redirect page type.  Put the url to redirect to in the body.  Currently it does 302 status codes.
